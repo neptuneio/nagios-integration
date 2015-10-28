@@ -48,6 +48,5 @@ if __name__ == "__main__":
 
     if options.type:
         event['type'] = options.type
-    print json.dumps(event)
 
     send_to_neptune(api_key, event)
